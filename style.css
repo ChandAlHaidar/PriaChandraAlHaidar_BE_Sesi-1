@@ -1,0 +1,146 @@
+/* Pengaturan Dasar Halaman */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4efe6; /* Warna krem lembut */
+    color: #333333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Pembungkus Utama agar berada di tengah */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Styling Header */
+.header {
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #e6dec8;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%; /* Membuat logo berbentuk lingkaran */
+    margin-bottom: 10px;
+    border: 3px solid #6f4e37;
+}
+
+.header h1 {
+    color: #4a3525; /* Cokelat tua */
+    font-size: 28px;
+}
+
+.header p {
+    color: #7a6a58;
+    font-size: 14px;
+}
+
+/* Styling Section */
+.section {
+    margin-bottom: 35px;
+}
+
+.section h2 {
+    color: #6f4e37; /* Cokelat kopi */
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-left: 4px solid #6f4e37;
+    padding-left: 10px;
+}
+
+/* Styling Tabel Menu */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+    background-color: #6f4e37;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Efek Hover saat mouse diarahkan ke baris menu */
+tbody tr:hover {
+    background-color: #f9f3e8;
+    transition: background-color 0.2s ease;
+}
+
+/* Styling Form Pemesanan */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #4a3525;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #6f4e37;
+}
+
+/* Styling Button & Efek Hover */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6f4e37;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a3525;
+    box-shadow: 0 5px 12px rgba(74, 53, 37, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Styling Footer */
+.footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #e6dec8;
+    color: #888888;
+    font-size: 13px;
+}
